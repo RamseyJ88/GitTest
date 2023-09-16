@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ramsey Jones Art Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ME</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHYSICAL</a>
+    <a href="#band2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIGITAL</a>
+    <a href="#tour2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MINIATURE</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ME</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHYSICAL</a>
+  <a href="#band2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIGITAL</a>
+  <a href="#tour2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MINIATURE</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/TSS.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h2 class="w3-text-white" >Miniature Painting</h2>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/Damnnation.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h2 class="w3-text-black" class="w3-wide">Physical Art</h2>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/FFB.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h2 class="w3-text-black" class="w3-wide">Digital Art</h2>
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">HI, IM RAMSEY</h2>
+    <p class="w3-opacity"><i>the face behind the art</i></p>
+    <p class="w3-justify">Hello. My name is Ramsey Jones. I am a second-year Computational Media major at the Georgia
+       Institute of Technology. I am a multi-medium artist, mostly focused on digital art, painting, sceteching, marker, 
+       and miniature painting. I am a board game designer, with one published game, two printed games, and many more 
+       game prototypes. This is a portfolio of my art and designs in my different mediums. Enjoy! </p>
+    <div class="w3-row w3-padding-32">
+      
+      <div class="w3-third">
+        <p>Me (and Gavin Varhey)</p>
+        <img src="SPGV.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
+      </div> 
+      <div class="w3-third" id="selfport">
+        <p>Me</p>
+        <img src="SP.png" class="w3-round w3-margin-bottom" alt="Random Name 2" style="width:99%">
+      </div>
+      <div class="w3-third">
+        <p>Not me (my dog Ginger)</p>
+        <img src="DOG.png" class="w3-round" alt="Random Name 3" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide">PHYSICAL ART</h2>
+    <div class="w3-row w3-padding-32">
+      
+      <div class="w3-third">
+        <p>Scetch</p>
+        <img src="Cam.jpg" class="w3-round w3-margin-bottom w3-padding-32" alt="Random Name 1" style="width:99%">
+      </div> 
+      <div class="w3-third" id="selfport">
+        <p>Acrylic</p>
+        <img src="Eld.png" class="w3-round w3-margin-bottom w3-padding-32" alt="Random Name 2" style="width:99%">
+      </div>
+      <div class="w3-third">
+        <p>Water Color</p>
+        <img src="Wat.jpg" class="w3-round w3-padding-32" alt="Random Name 3" style="width:99%">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band2">
+    <h2 class="w3-wide">DIGITAL ART</h2>
+    <div class="w3-row w3-padding-32">
+      
+      <div class="w3-third">
+        <p>Breacher</p>
+        <img src="FFBS.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
+      </div> 
+      <div class="w3-third" id="selfport">
+        <p>World Ender Mech</p>
+        <img src="Smech.png" class="w3-round w3-margin-bottom" alt="Random Name 2" style="width:99%">
+      </div>
+      <div class="w3-third">
+        <p>Sleeper Agent</p>
+        <img src="SlA.png" class="w3-round" alt="Random Name 3" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide">MINIATURE PAINTING</h2>
+    <div class="w3-row w3-padding-32">
+      
+      <div class="w3-third">
+        <p>Gar Saxon</p>
+        <img src="GAR.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
+      </div> 
+      <div class="w3-third" id="selfport">
+        <p>Darth Vader</p>
+        <img src="DV.png" class="w3-round w3-margin-bottom" alt="Random Name 2" style="width:99%">
+      </div>
+      <div class="w3-third">
+        <p>Kastelan Robot</p>
+        <img src="RED.png" class="w3-round" alt="Random Name 3" style="width:99%">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact2">
+    <h2 class="w3-wide w3-center">CONTACT ME</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Atlanta, GA<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 470-316-3617<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: jones.ramsey88@gmail.com<br>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
