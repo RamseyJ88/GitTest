@@ -19,20 +19,19 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ME</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHYSICAL</a>
-    <a href="#band2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIGITAL</a>
-    <a href="#tour2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MINIATURE</a>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="#me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ME</a>
+    <a href="#physical" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHYSICAL</a>
+    <a href="#digital" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIGITAL</a>
+    <a href="#minis" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MINIATURE</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ME</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHYSICAL</a>
-  <a href="#band2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIGITAL</a>
-  <a href="#tour2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MINIATURE</a>
+  <a href="#me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ME</a>
+  <a href="#physical" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHYSICAL</a>
+  <a href="#digital" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIGITAL</a>
+  <a href="#minis" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MINIATURE</a>
 </div>
 
 <!-- Page content -->
@@ -40,26 +39,26 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="/TSS.png" style="width:100%">
+    <img src="Tss.png" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h2 class="w3-text-white" >Miniature Painting</h2>
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/Damnnation.png" style="width:100%">
+    <img src="Dam.png" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
       <h2 class="w3-text-black" class="w3-wide">Physical Art</h2>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/FFB.png" style="width:100%">
+    <img src="Ffb.png" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
       <h2 class="w3-text-black" class="w3-wide">Digital Art</h2>
     </div>
   </div>
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <!-- Me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="me">
     <h2 class="w3-wide">HI, IM RAMSEY</h2>
     <p class="w3-opacity"><i>the face behind the art</i></p>
     <p class="w3-justify">Hello. My name is Ramsey Jones. I am a second-year Computational Media major at the Georgia
@@ -83,10 +82,12 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
+  <!-- Physical Art Section -->
+  <div class="w3-black" id="physical">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide">PHYSICAL ART</h2>
+      <p class="w3-justify">I have sketched and painted all of my life, so over the years I have developed many styles and
+        learned many mediums. This was improved by many art classes throughout highschool. </p>
     <div class="w3-row w3-padding-32">
       
       <div class="w3-third">
@@ -105,41 +106,51 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band2">
+  <!-- Digital Art Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="digital">
     <h2 class="w3-wide">DIGITAL ART</h2>
+    <p class="w3-justify">More recently I have picked up digital art, and while I am by no means a master, I am able try different 
+      styles and create anything from simple line art to full scenes.
+    </p>
     <div class="w3-row w3-padding-32">
       
       <div class="w3-third">
-        <p>Breacher</p>
+        <p>Full Scenes</p>
         <img src="FFBS.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
       </div> 
       <div class="w3-third" id="selfport">
-        <p>World Ender Mech</p>
+        <p>Line Art</p>
         <img src="Smech.png" class="w3-round w3-margin-bottom" alt="Random Name 2" style="width:99%">
       </div>
       <div class="w3-third">
-        <p>Sleeper Agent</p>
+        <p>Characters</p>
         <img src="SlA.png" class="w3-round" alt="Random Name 3" style="width:99%">
       </div>
     </div>
   </div>
 
-  <div class="w3-black" id="tour">
+  <!-- Miniature Section -->
+  <div class="w3-black" id="minis">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide">MINIATURE PAINTING</h2>
+      <p class="w3-justify">Ever since I was young, painting miniatures was a hobby of mine, but after years of experince and trial and error 
+        I have learned a great deal of tricks and techniques, and was even able to sell my skills as a commision based service for a while. More
+        while I have gotten to know more basic techniques like basing, washes and highlight, more recently I have been able to learn more advanced
+        techniques like non-metatalic metal (NMM) and one source lighting (OSL).
+      </p>
     <div class="w3-row w3-padding-32">
       
       <div class="w3-third">
-        <p>Gar Saxon</p>
-        <img src="GAR.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
+        <p>Large Models</p>
+        <img src="RED.png" class="w3-round w3-margin-bottom" alt="Random Name 1" style="width:99%">
       </div> 
       <div class="w3-third" id="selfport">
-        <p>Darth Vader</p>
+        <p>OSL and NMM</p>
         <img src="DV.png" class="w3-round w3-margin-bottom" alt="Random Name 2" style="width:99%">
       </div>
       <div class="w3-third">
-        <p>Kastelan Robot</p>
-        <img src="RED.png" class="w3-round" alt="Random Name 3" style="width:99%">
+        <p> Details and Basing</p>
+        <img src="GAR.png" class="w3-round" alt="Random Name 3" style="width:99%">
       </div>
     </div>
     </div>
@@ -159,9 +170,6 @@ body {font-family: "Lato", sans-serif}
   
 <!-- End Page Content -->
 </div>
-
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
